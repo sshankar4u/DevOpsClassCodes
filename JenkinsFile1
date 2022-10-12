@@ -1,7 +1,7 @@
 new commit  pipeline{
  new chnage for commit   tools{
-        jdk 'myjava'
-        maven 'mymaven'
+        jdk 'Myjava'
+        maven 'Mymaven'
     }
     //commit on github-- new one
     agent any
