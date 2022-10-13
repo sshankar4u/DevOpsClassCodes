@@ -1,8 +1,8 @@
 
 pipeline{
     tools{
-        jdk 'myjava'
-        maven 'mymaven'
+        jdk 'Myjava'
+        maven 'Mymaven'
     }
 	agent any
       stages{
@@ -10,7 +10,7 @@ pipeline{
 	    
                steps{
 		 echo 'cloning..'
-                 git 'https://github.com/Sonal0409/DevOpsClassCodes.git'
+                 git 'https://github.com/rajeshgit2022/DevOpsClassCodes.git'
               }
           }
           stage('Compile'){
